@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <!-- Links -->
+  <script src="https://kit.fontawesome.com/ff30c81812.js" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container" style="padding: 50px 0;">
+    <form class="" action="/result" method="post">
+
+      <div class="container-fluid form-outline mb-4">
+        <label for="InvoiceNumber">Invoice Number:</label>
+        <input type="number" class="form-control" placeholder="Input Invoice Number" name="nIN" id="" required>
+      </div>
+
+      <div class="container-fluid dropdown mb-4">
+        <label for="InvoiceDate">Invoice Date:</label>
+        <input type="date" class="form-control" name="nID" value="" required>
+      </div>
+
+      <div class="container-fluid form-outline mb-4">
+        <label for="PartyName">Name:</label>
+        <input type="text" class="form-control" placeholder="Input Party Name" name="" id="" required>
+      </div>
+
+      <div class="container-fluid form-outline mb-4">
+        <label for="PAN">PAN Number:</label>
+        <input type="text" class="form-control field" placeholder="Input PAN Number" name="" id="">
+      </div>
+
+      <div class="container-fluid form-outline mb-4">
+        <label for="Rate">Rate:</label>
+        <input type="number" class="form-control field" placeholder="Input Rate" name="" id="">
+      </div>
+
+      <div class="container-fluid form-outline mb-4">
+        <label for="Tax">Tax:</label>
+        <input type="number" class="form-control field" placeholder="Input Tax" name="" id="">
+      </div>
+
+      <div class="container-fluid form-outline mb-4">
+        <label for="Total">Total:</label>
+        <input type="number" class="form-control field" placeholder="Input Total" name="" id="">
+      </div>
+
+      <div class="container-fluid text-center text-lg-start mt-4 pt-2">
+        <button type="submit" class="btn btn-lg" style="padding-left: 2.5rem; padding-right: 2.5rem; background-color: red; color: white">Submit</button>
+      </div>
+    </form>
+
+  </div>
+</body>
